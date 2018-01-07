@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8"
+	passed="8">
+	<reporter-output>
+	</reporter-output>
+	<suite name="Suite" duration-ms="188642" started-at="2018-01-07T12:47:04Z"
+		finished-at="2018-01-07T12:50:13Z">
+		<groups>
+		</groups>
+		<test name="ChromeTest" duration-ms="27028" started-at="2018-01-07T12:47:04Z"
+			finished-at="2018-01-07T12:47:32Z">
+			<class name="testScripts.NegativeSearchInsta">
+				<test-method status="PASS"
+					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.NegativeSearchInsta@11438d26]"
+					name="initiateBrowser" is-config="true" duration-ms="5512"
+					started-at="2018-01-07T18:17:18Z" finished-at="2018-01-07T18:17:24Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[chrome]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initiateBrowser -->
+				<test-method status="PASS"
+					signature="negSearchInsta()[pri:0, instance:testScripts.NegativeSearchInsta@11438d26]"
+					name="negSearchInsta" duration-ms="7167" started-at="2018-01-07T18:17:24Z"
+					finished-at="2018-01-07T18:17:31Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- negSearchInsta -->
+				<test-method status="PASS"
+					signature="terminateBrowser()[pri:0, instance:testScripts.NegativeSearchInsta@11438d26]"
+					name="terminateBrowser" is-config="true" duration-ms="736"
+					started-at="2018-01-07T18:17:31Z" finished-at="2018-01-07T18:17:32Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- terminateBrowser -->
+			</class> <!-- testScripts.NegativeSearchInsta -->
+			<class name="testScripts.SearchInsta">
+				<test-method status="PASS"
+					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.SearchInsta@458c1321]"
+					name="initiateBrowser" is-config="true" duration-ms="6253"
+					started-at="2018-01-07T18:17:05Z" finished-at="2018-01-07T18:17:11Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[chrome]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initiateBrowser -->
+				<test-method status="PASS"
+					signature="searchInsta()[pri:0, instance:testScripts.SearchInsta@458c1321]"
+					name="searchInsta" duration-ms="6611" started-at="2018-01-07T18:17:11Z"
+					finished-at="2018-01-07T18:17:17Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- searchInsta -->
+				<test-method status="PASS"
+					signature="terminateBrowser()[pri:0, instance:testScripts.SearchInsta@458c1321]"
+					name="terminateBrowser" is-config="true" duration-ms="722"
+					started-at="2018-01-07T18:17:17Z" finished-at="2018-01-07T18:17:18Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- terminateBrowser -->
+			</class> <!-- testScripts.SearchInsta -->
+		</test> <!-- ChromeTest -->
+		<test name="FirefoxTest" duration-ms="23220" started-at="2018-01-07T12:47:32Z"
+			finished-at="2018-01-07T12:47:55Z">
+			<class name="testScripts.NegativeSearchInsta">
+				<test-method status="PASS"
+					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.NegativeSearchInsta@3d921e20]"
+					name="initiateBrowser" is-config="true" duration-ms="6416"
+					started-at="2018-01-07T18:17:40Z" finished-at="2018-01-07T18:17:47Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[firefox]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initiateBrowser -->
+				<test-method status="PASS"
+					signature="negSearchInsta()[pri:0, instance:testScripts.NegativeSearchInsta@3d921e20]"
+					name="negSearchInsta" duration-ms="7624" started-at="2018-01-07T18:17:47Z"
+					finished-at="2018-01-07T18:17:55Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- negSearchInsta -->
+				<test-method status="PASS"
+					signature="terminateBrowser()[pri:0, instance:testScripts.NegativeSearchInsta@3d921e20]"
+					name="terminateBrowser" is-config="true" duration-ms="327"
+					started-at="2018-01-07T18:17:55Z" finished-at="2018-01-07T18:17:55Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- terminateBrowser -->
+			</class> <!-- testScripts.NegativeSearchInsta -->
+			<class name="testScripts.SearchInsta">
+				<test-method status="PASS"
+					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.SearchInsta@3234e239]"
+					name="initiateBrowser" is-config="true" duration-ms="6365"
+					started-at="2018-01-07T18:17:32Z" finished-at="2018-01-07T18:17:38Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[firefox]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initiateBrowser -->
+				<test-method status="PASS"
+					signature="searchInsta()[pri:0, instance:testScripts.SearchInsta@3234e239]"
+					name="searchInsta" duration-ms="2054" started-at="2018-01-07T18:17:38Z"
+					finished-at="2018-01-07T18:17:40Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- searchInsta -->
+				<test-method status="PASS"
+					signature="terminateBrowser()[pri:0, instance:testScripts.SearchInsta@3234e239]"
+					name="terminateBrowser" is-config="true" duration-ms="429"
+					started-at="2018-01-07T18:17:40Z" finished-at="2018-01-07T18:17:40Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- terminateBrowser -->
+			</class> <!-- testScripts.SearchInsta -->
+		</test> <!-- FirefoxTest -->
+		<test name="EdgeTest" duration-ms="18281" started-at="2018-01-07T12:47:55Z"
+			finished-at="2018-01-07T12:48:13Z">
+			<class name="testScripts.NegativeSearchInsta">
+				<test-method status="PASS"
+					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.NegativeSearchInsta@1d8d30f7]"
+					name="initiateBrowser" is-config="true" duration-ms="2511"
+					started-at="2018-01-07T18:18:02Z" finished-at="2018-01-07T18:18:05Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[edge]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initiateBrowser -->
+				<test-method status="PASS"
+					signature="negSearchInsta()[pri:0, instance:testScripts.NegativeSearchInsta@1d8d30f7]"
+					name="negSearchInsta" duration-ms="5618" started-at="2018-01-07T18:18:05Z"
+					finished-at="2018-01-07T18:18:10Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- negSearchInsta -->
+				<test-method status="PASS"
+					signature="terminateBrowser()[pri:0, instance:testScripts.NegativeSearchInsta@1d8d30f7]"
+					name="terminateBrowser" is-config="true" duration-ms="2977"
+					started-at="2018-01-07T18:18:10Z" finished-at="2018-01-07T18:18:13Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- terminateBrowser -->
+			</class> <!-- testScripts.NegativeSearchInsta -->
+			<class name="testScripts.SearchInsta">
+				<test-method status="PASS"
+					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.SearchInsta@32d2fa64]"
+					name="initiateBrowser" is-config="true" duration-ms="2850"
+					started-at="2018-01-07T18:17:55Z" finished-at="2018-01-07T18:17:58Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[edge]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initiateBrowser -->
+				<test-method status="PASS"
+					signature="searchInsta()[pri:0, instance:testScripts.SearchInsta@32d2fa64]"
+					name="searchInsta" duration-ms="1330" started-at="2018-01-07T18:17:58Z"
+					finished-at="2018-01-07T18:17:59Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- searchInsta -->
+				<test-method status="PASS"
+					signature="terminateBrowser()[pri:0, instance:testScripts.SearchInsta@32d2fa64]"
+					name="terminateBrowser" is-config="true" duration-ms="2986"
+					started-at="2018-01-07T18:17:59Z" finished-at="2018-01-07T18:18:02Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- terminateBrowser -->
+			</class> <!-- testScripts.SearchInsta -->
+		</test> <!-- EdgeTest -->
+		<test name="IETest" duration-ms="119932" started-at="2018-01-07T12:48:13Z"
+			finished-at="2018-01-07T12:50:13Z">
+			<class name="testScripts.NegativeSearchInsta">
+				<test-method status="PASS"
+					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.NegativeSearchInsta@6b9651f3]"
+					name="initiateBrowser" is-config="true" duration-ms="2683"
+					started-at="2018-01-07T18:19:10Z" finished-at="2018-01-07T18:19:13Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[ie]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initiateBrowser -->
+				<test-method status="PASS"
+					signature="negSearchInsta()[pri:0, instance:testScripts.NegativeSearchInsta@6b9651f3]"
+					name="negSearchInsta" duration-ms="59547" started-at="2018-01-07T18:19:13Z"
+					finished-at="2018-01-07T18:20:13Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- negSearchInsta -->
+				<test-method status="PASS"
+					signature="terminateBrowser()[pri:0, instance:testScripts.NegativeSearchInsta@6b9651f3]"
+					name="terminateBrowser" is-config="true" duration-ms="536"
+					started-at="2018-01-07T18:20:13Z" finished-at="2018-01-07T18:20:13Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- terminateBrowser -->
+			</class> <!-- testScripts.NegativeSearchInsta -->
+			<class name="testScripts.SearchInsta">
+				<test-method status="PASS"
+					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.SearchInsta@5bb21b69]"
+					name="initiateBrowser" is-config="true" duration-ms="2335"
+					started-at="2018-01-07T18:18:13Z" finished-at="2018-01-07T18:18:16Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[ie]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initiateBrowser -->
+				<test-method status="PASS"
+					signature="searchInsta()[pri:0, instance:testScripts.SearchInsta@5bb21b69]"
+					name="searchInsta" duration-ms="54291" started-at="2018-01-07T18:18:16Z"
+					finished-at="2018-01-07T18:19:10Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- searchInsta -->
+				<test-method status="PASS"
+					signature="terminateBrowser()[pri:0, instance:testScripts.SearchInsta@5bb21b69]"
+					name="terminateBrowser" is-config="true" duration-ms="534"
+					started-at="2018-01-07T18:19:10Z" finished-at="2018-01-07T18:19:10Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- terminateBrowser -->
+			</class> <!-- testScripts.SearchInsta -->
+		</test> <!-- IETest -->
+	</suite> <!-- Suite -->
+</testng-results>
