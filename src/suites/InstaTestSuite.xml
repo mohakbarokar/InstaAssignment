@@ -9,14 +9,14 @@
 		<parameter name="browser" value="chrome" />
 
 		<classes>
-			<class name="testScripts.SearchInsta" />
-			<class name="testScripts.NegativeSearchInsta" />
+			 <class name="testScripts.SearchInsta" />
+			<class name="testScripts.NegativeSearchInsta" /> 
 
 		</classes>
 
 	</test>
 
-	<test name="FirefoxTest">
+	 <test name="FirefoxTest">
 
 		<parameter name="browser" value="firefox" />
 

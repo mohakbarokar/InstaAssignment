@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 import uiComponentScreens.*;
 
@@ -23,7 +24,7 @@ public class SearchInsta extends BaseTestScript{
 		@Test
 		public void searchInsta() throws InterruptedException {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(GoogleHome.inputBox)));
-			
+			Reporter.log("Google Home Page Loaded");
 			driver.findElement(By.id(GoogleHome.inputBox)).clear();
 			driver.findElement(By.id(GoogleHome.inputBox)).sendKeys(Constants.searchString);
 			
@@ -35,7 +36,9 @@ public class SearchInsta extends BaseTestScript{
 			else {
 			  driver.findElement(By.xpath(GoogleHome.SearchBtn)).click();
 			}
+			Reporter.log("Search Initiated");
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SearchPage.resultLinks)));
+			Reporter.log("Search Results Page loaded");
 			List<WebElement> searchClick = driver.findElements(By.xpath(SearchPage.resulClicktTitle));
 			List<WebElement> searchLinks = driver.findElements(By.xpath(SearchPage.resultLinks));			
 			
@@ -48,6 +51,7 @@ public class SearchInsta extends BaseTestScript{
 			    Constants.getLink = searchLinks.get(i).getText();
 			  
 			    if(Constants.getLink.equalsIgnoreCase(Constants.instaLink)) {
+			    	Reporter.log(Constants.instaLink+" Found in search results");
 					 System.out.println("InstaWork is positioned at No. "+j+" in Google Search");
 					  try{
 						 searchClick.get(i).click();
@@ -55,15 +59,17 @@ public class SearchInsta extends BaseTestScript{
 					    }
 					  catch(Exception e)
 					    {
-					     System.out.println(e.getMessage());
+						  System.out.println(e.getMessage());
 					    }
 					 
 					 wait.until(ExpectedConditions.titleContains("InstaWork"));
 					 Constants.pageTitle = driver.getTitle();
+					 Reporter.log(Constants.pageTitle+" Page Loaded");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(InstaworkHome.InstaworkIcon)));
 					 Assert.assertEquals(Constants.instaTitle, Constants.pageTitle);
 				 }
 			    else {
+			    	
 			    	System.out.println("Instawork Not Found in First Page of Search Results");
 			    }
 			}

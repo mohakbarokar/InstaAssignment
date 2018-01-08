@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-	<test name="ChromeTest(failed)">
-		<parameter name="browser" value="chrome" />
-		<classes>
-			<class name="testScripts.TestCassss">
-				<methods>
-					<include name="negSearchInsta" />
-					<include name="initiateBrowser" />
-				</methods>
-			</class> <!-- testScripts.TestCassss -->
-		</classes>
-	</test> <!-- ChromeTest(failed) -->
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testScripts.TestClass">
+        <methods>
+          <include name="searchTest"/>
+          <include name="initiateBrowser"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- testScripts.TestClass -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

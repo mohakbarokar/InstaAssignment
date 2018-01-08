@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 import common.Constants;
 import common.Reusable;
@@ -26,13 +27,15 @@ public class NegativeSearchInsta extends BaseTestScript{
 	@Test
 	public void negSearchInsta() throws InterruptedException {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(GoogleHome.inputBox)));
-		
+		Reporter.log("Google Home Page Loaded");
 		driver.findElement(By.id(GoogleHome.inputBox)).clear();
 		driver.findElement(By.id(GoogleHome.inputBox)).sendKeys(Constants.negSearchString);
 		driver.findElement(By.xpath(GoogleHome.SearchBtn)).click();
+		Reporter.log("Search Initiated");
 		
 		for(int k=1; k<=4;k++){
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SearchPage.resultLinks)));
+		Reporter.log("Search Results Page loaded");
 		List<WebElement> searchClick = driver.findElements(By.xpath(SearchPage.resulClicktTitle));
 		List<WebElement> searchLinks = driver.findElements(By.xpath(SearchPage.resultLinks));			
 		
@@ -46,6 +49,7 @@ public class NegativeSearchInsta extends BaseTestScript{
 		         Constants.getLink = searchLinks.get(i).getText();
 		  
 		             if(Constants.getLink.equalsIgnoreCase(Constants.instaLink)) {
+		              Reporter.log(Constants.instaLink+"Found in Search Results");
 				      System.out.println("InstaWork is positioned at No. "+j+" in Google Search");
 				      try{
 					      searchClick.get(i).click();
@@ -62,10 +66,13 @@ public class NegativeSearchInsta extends BaseTestScript{
 				        
 		                }
 			         else {
+			           Reporter.log(Constants.instaLink+"Not Found in Search Results");
 				       System.out.println("Instawork Not Found in Search Results Page: "+k);
 				       System.out.println("Searching on Next Page...");
 				       Reusable.scrollBottomOfPage();
+				       Reporter.log("Scrolled to Bottom of Page");
 				       driver.findElement(By.id(SearchPage.nextPage)).click();
+				       Reporter.log("Navigated to Next Page");
 				       wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SearchPage.resulClicktTitle)));
 			              }
 		          }
@@ -73,7 +80,8 @@ public class NegativeSearchInsta extends BaseTestScript{
 		    }
 		 catch(Exception e)
 		   {
-		      System.out.println(e.getMessage());
+			 System.out.println(e.getMessage());
+		     
 		   }
 				
 		  }

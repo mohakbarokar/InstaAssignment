@@ -1,263 +1,899 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8"
-	passed="8">
-	<reporter-output>
-	</reporter-output>
-	<suite name="Suite" duration-ms="188642" started-at="2018-01-07T12:47:04Z"
-		finished-at="2018-01-07T12:50:13Z">
-		<groups>
-		</groups>
-		<test name="ChromeTest" duration-ms="27028" started-at="2018-01-07T12:47:04Z"
-			finished-at="2018-01-07T12:47:32Z">
-			<class name="testScripts.NegativeSearchInsta">
-				<test-method status="PASS"
-					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.NegativeSearchInsta@11438d26]"
-					name="initiateBrowser" is-config="true" duration-ms="5512"
-					started-at="2018-01-07T18:17:18Z" finished-at="2018-01-07T18:17:24Z">
-					<params>
-						<param index="0">
-							<value>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Properties File Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Base URL]]>
+    </line>
+    <line>
+      <![CDATA[Google Home Page Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Search Initiated]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/ Found in search results]]>
+    </line>
+    <line>
+      <![CDATA[Properties File Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Base URL]]>
+    </line>
+    <line>
+      <![CDATA[Google Home Page Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Search Initiated]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Properties File Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Base URL]]>
+    </line>
+    <line>
+      <![CDATA[Google Home Page Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Search Initiated]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/ Found in search results]]>
+    </line>
+    <line>
+      <![CDATA[Properties File Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Base URL]]>
+    </line>
+    <line>
+      <![CDATA[Google Home Page Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Search Initiated]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Properties File Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Base URL]]>
+    </line>
+    <line>
+      <![CDATA[Google Home Page Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Search Initiated]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[Properties File Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Base URL]]>
+    </line>
+    <line>
+      <![CDATA[Google Home Page Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Search Initiated]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Properties File Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Base URL]]>
+    </line>
+    <line>
+      <![CDATA[Google Home Page Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Search Initiated]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/ Found in search results]]>
+    </line>
+    <line>
+      <![CDATA[Properties File Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Base URL]]>
+    </line>
+    <line>
+      <![CDATA[Google Home Page Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Search Initiated]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Bottom of Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Next Page]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="173938" started-at="2018-01-08T11:45:39Z" finished-at="2018-01-08T11:48:33Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="22076" started-at="2018-01-08T11:45:39Z" finished-at="2018-01-08T11:46:01Z">
+      <class name="testScripts.NegativeSearchInsta">
+        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.NegativeSearchInsta@7a1ebcd8]" name="initiateBrowser" is-config="true" duration-ms="4526" started-at="2018-01-08T17:15:51Z" finished-at="2018-01-08T17:15:55Z">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[chrome]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- initiateBrowser -->
-				<test-method status="PASS"
-					signature="negSearchInsta()[pri:0, instance:testScripts.NegativeSearchInsta@11438d26]"
-					name="negSearchInsta" duration-ms="7167" started-at="2018-01-07T18:17:24Z"
-					finished-at="2018-01-07T18:17:31Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- negSearchInsta -->
-				<test-method status="PASS"
-					signature="terminateBrowser()[pri:0, instance:testScripts.NegativeSearchInsta@11438d26]"
-					name="terminateBrowser" is-config="true" duration-ms="736"
-					started-at="2018-01-07T18:17:31Z" finished-at="2018-01-07T18:17:32Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- terminateBrowser -->
-			</class> <!-- testScripts.NegativeSearchInsta -->
-			<class name="testScripts.SearchInsta">
-				<test-method status="PASS"
-					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.SearchInsta@458c1321]"
-					name="initiateBrowser" is-config="true" duration-ms="6253"
-					started-at="2018-01-07T18:17:05Z" finished-at="2018-01-07T18:17:11Z">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Properties File Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window Maximized]]>
+            </line>
+            <line>
+              <![CDATA[Loaded Base URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="negSearchInsta()[pri:0, instance:testScripts.NegativeSearchInsta@7a1ebcd8]" name="negSearchInsta" duration-ms="5036" started-at="2018-01-08T17:15:55Z" finished-at="2018-01-08T17:16:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Google Home Page Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Search Initiated]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negSearchInsta -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:testScripts.NegativeSearchInsta@7a1ebcd8]" name="terminateBrowser" is-config="true" duration-ms="957" started-at="2018-01-08T17:16:00Z" finished-at="2018-01-08T17:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- testScripts.NegativeSearchInsta -->
+      <class name="testScripts.SearchInsta">
+        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.SearchInsta@34cd072c]" name="initiateBrowser" is-config="true" duration-ms="5266" started-at="2018-01-08T17:15:39Z" finished-at="2018-01-08T17:15:45Z">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[chrome]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- initiateBrowser -->
-				<test-method status="PASS"
-					signature="searchInsta()[pri:0, instance:testScripts.SearchInsta@458c1321]"
-					name="searchInsta" duration-ms="6611" started-at="2018-01-07T18:17:11Z"
-					finished-at="2018-01-07T18:17:17Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- searchInsta -->
-				<test-method status="PASS"
-					signature="terminateBrowser()[pri:0, instance:testScripts.SearchInsta@458c1321]"
-					name="terminateBrowser" is-config="true" duration-ms="722"
-					started-at="2018-01-07T18:17:17Z" finished-at="2018-01-07T18:17:18Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- terminateBrowser -->
-			</class> <!-- testScripts.SearchInsta -->
-		</test> <!-- ChromeTest -->
-		<test name="FirefoxTest" duration-ms="23220" started-at="2018-01-07T12:47:32Z"
-			finished-at="2018-01-07T12:47:55Z">
-			<class name="testScripts.NegativeSearchInsta">
-				<test-method status="PASS"
-					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.NegativeSearchInsta@3d921e20]"
-					name="initiateBrowser" is-config="true" duration-ms="6416"
-					started-at="2018-01-07T18:17:40Z" finished-at="2018-01-07T18:17:47Z">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Properties File Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window Maximized]]>
+            </line>
+            <line>
+              <![CDATA[Loaded Base URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="searchInsta()[pri:0, instance:testScripts.SearchInsta@34cd072c]" name="searchInsta" duration-ms="5117" started-at="2018-01-08T17:15:45Z" finished-at="2018-01-08T17:15:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Google Home Page Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Search Initiated]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/ Found in search results]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchInsta -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:testScripts.SearchInsta@34cd072c]" name="terminateBrowser" is-config="true" duration-ms="1153" started-at="2018-01-08T17:15:50Z" finished-at="2018-01-08T17:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- testScripts.SearchInsta -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="23271" started-at="2018-01-08T11:46:01Z" finished-at="2018-01-08T11:46:25Z">
+      <class name="testScripts.NegativeSearchInsta">
+        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.NegativeSearchInsta@fad74ee]" name="initiateBrowser" is-config="true" duration-ms="5162" started-at="2018-01-08T17:16:13Z" finished-at="2018-01-08T17:16:18Z">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[firefox]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- initiateBrowser -->
-				<test-method status="PASS"
-					signature="negSearchInsta()[pri:0, instance:testScripts.NegativeSearchInsta@3d921e20]"
-					name="negSearchInsta" duration-ms="7624" started-at="2018-01-07T18:17:47Z"
-					finished-at="2018-01-07T18:17:55Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- negSearchInsta -->
-				<test-method status="PASS"
-					signature="terminateBrowser()[pri:0, instance:testScripts.NegativeSearchInsta@3d921e20]"
-					name="terminateBrowser" is-config="true" duration-ms="327"
-					started-at="2018-01-07T18:17:55Z" finished-at="2018-01-07T18:17:55Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- terminateBrowser -->
-			</class> <!-- testScripts.NegativeSearchInsta -->
-			<class name="testScripts.SearchInsta">
-				<test-method status="PASS"
-					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.SearchInsta@3234e239]"
-					name="initiateBrowser" is-config="true" duration-ms="6365"
-					started-at="2018-01-07T18:17:32Z" finished-at="2018-01-07T18:17:38Z">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Properties File Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window Maximized]]>
+            </line>
+            <line>
+              <![CDATA[Loaded Base URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="negSearchInsta()[pri:0, instance:testScripts.NegativeSearchInsta@fad74ee]" name="negSearchInsta" duration-ms="6403" started-at="2018-01-08T17:16:18Z" finished-at="2018-01-08T17:16:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Google Home Page Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Search Initiated]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negSearchInsta -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:testScripts.NegativeSearchInsta@fad74ee]" name="terminateBrowser" is-config="true" duration-ms="381" started-at="2018-01-08T17:16:24Z" finished-at="2018-01-08T17:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- testScripts.NegativeSearchInsta -->
+      <class name="testScripts.SearchInsta">
+        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.SearchInsta@36b4cef0]" name="initiateBrowser" is-config="true" duration-ms="4520" started-at="2018-01-08T17:16:01Z" finished-at="2018-01-08T17:16:06Z">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[firefox]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- initiateBrowser -->
-				<test-method status="PASS"
-					signature="searchInsta()[pri:0, instance:testScripts.SearchInsta@3234e239]"
-					name="searchInsta" duration-ms="2054" started-at="2018-01-07T18:17:38Z"
-					finished-at="2018-01-07T18:17:40Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- searchInsta -->
-				<test-method status="PASS"
-					signature="terminateBrowser()[pri:0, instance:testScripts.SearchInsta@3234e239]"
-					name="terminateBrowser" is-config="true" duration-ms="429"
-					started-at="2018-01-07T18:17:40Z" finished-at="2018-01-07T18:17:40Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- terminateBrowser -->
-			</class> <!-- testScripts.SearchInsta -->
-		</test> <!-- FirefoxTest -->
-		<test name="EdgeTest" duration-ms="18281" started-at="2018-01-07T12:47:55Z"
-			finished-at="2018-01-07T12:48:13Z">
-			<class name="testScripts.NegativeSearchInsta">
-				<test-method status="PASS"
-					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.NegativeSearchInsta@1d8d30f7]"
-					name="initiateBrowser" is-config="true" duration-ms="2511"
-					started-at="2018-01-07T18:18:02Z" finished-at="2018-01-07T18:18:05Z">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Properties File Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window Maximized]]>
+            </line>
+            <line>
+              <![CDATA[Loaded Base URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="searchInsta()[pri:0, instance:testScripts.SearchInsta@36b4cef0]" name="searchInsta" duration-ms="6227" started-at="2018-01-08T17:16:06Z" finished-at="2018-01-08T17:16:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Google Home Page Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Search Initiated]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/ Found in search results]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchInsta -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:testScripts.SearchInsta@36b4cef0]" name="terminateBrowser" is-config="true" duration-ms="571" started-at="2018-01-08T17:16:12Z" finished-at="2018-01-08T17:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- testScripts.SearchInsta -->
+    </test> <!-- FirefoxTest -->
+    <test name="EdgeTest" duration-ms="15646" started-at="2018-01-08T11:46:25Z" finished-at="2018-01-08T11:46:40Z">
+      <class name="testScripts.NegativeSearchInsta">
+        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.NegativeSearchInsta@9a7504c]" name="initiateBrowser" is-config="true" duration-ms="1837" started-at="2018-01-08T17:16:32Z" finished-at="2018-01-08T17:16:33Z">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[edge]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- initiateBrowser -->
-				<test-method status="PASS"
-					signature="negSearchInsta()[pri:0, instance:testScripts.NegativeSearchInsta@1d8d30f7]"
-					name="negSearchInsta" duration-ms="5618" started-at="2018-01-07T18:18:05Z"
-					finished-at="2018-01-07T18:18:10Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- negSearchInsta -->
-				<test-method status="PASS"
-					signature="terminateBrowser()[pri:0, instance:testScripts.NegativeSearchInsta@1d8d30f7]"
-					name="terminateBrowser" is-config="true" duration-ms="2977"
-					started-at="2018-01-07T18:18:10Z" finished-at="2018-01-07T18:18:13Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- terminateBrowser -->
-			</class> <!-- testScripts.NegativeSearchInsta -->
-			<class name="testScripts.SearchInsta">
-				<test-method status="PASS"
-					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.SearchInsta@32d2fa64]"
-					name="initiateBrowser" is-config="true" duration-ms="2850"
-					started-at="2018-01-07T18:17:55Z" finished-at="2018-01-07T18:17:58Z">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Properties File Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window Maximized]]>
+            </line>
+            <line>
+              <![CDATA[Loaded Base URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="negSearchInsta()[pri:0, instance:testScripts.NegativeSearchInsta@9a7504c]" name="negSearchInsta" duration-ms="3899" started-at="2018-01-08T17:16:33Z" finished-at="2018-01-08T17:16:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Google Home Page Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Search Initiated]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negSearchInsta -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:testScripts.NegativeSearchInsta@9a7504c]" name="terminateBrowser" is-config="true" duration-ms="3039" started-at="2018-01-08T17:16:37Z" finished-at="2018-01-08T17:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- testScripts.NegativeSearchInsta -->
+      <class name="testScripts.SearchInsta">
+        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.SearchInsta@3e57cd70]" name="initiateBrowser" is-config="true" duration-ms="2425" started-at="2018-01-08T17:16:25Z" finished-at="2018-01-08T17:16:27Z">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[edge]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- initiateBrowser -->
-				<test-method status="PASS"
-					signature="searchInsta()[pri:0, instance:testScripts.SearchInsta@32d2fa64]"
-					name="searchInsta" duration-ms="1330" started-at="2018-01-07T18:17:58Z"
-					finished-at="2018-01-07T18:17:59Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- searchInsta -->
-				<test-method status="PASS"
-					signature="terminateBrowser()[pri:0, instance:testScripts.SearchInsta@32d2fa64]"
-					name="terminateBrowser" is-config="true" duration-ms="2986"
-					started-at="2018-01-07T18:17:59Z" finished-at="2018-01-07T18:18:02Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- terminateBrowser -->
-			</class> <!-- testScripts.SearchInsta -->
-		</test> <!-- EdgeTest -->
-		<test name="IETest" duration-ms="119932" started-at="2018-01-07T12:48:13Z"
-			finished-at="2018-01-07T12:50:13Z">
-			<class name="testScripts.NegativeSearchInsta">
-				<test-method status="PASS"
-					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.NegativeSearchInsta@6b9651f3]"
-					name="initiateBrowser" is-config="true" duration-ms="2683"
-					started-at="2018-01-07T18:19:10Z" finished-at="2018-01-07T18:19:13Z">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Properties File Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window Maximized]]>
+            </line>
+            <line>
+              <![CDATA[Loaded Base URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="searchInsta()[pri:0, instance:testScripts.SearchInsta@3e57cd70]" name="searchInsta" duration-ms="1523" started-at="2018-01-08T17:16:27Z" finished-at="2018-01-08T17:16:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Google Home Page Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Search Initiated]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchInsta -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:testScripts.SearchInsta@3e57cd70]" name="terminateBrowser" is-config="true" duration-ms="2919" started-at="2018-01-08T17:16:29Z" finished-at="2018-01-08T17:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- testScripts.SearchInsta -->
+    </test> <!-- EdgeTest -->
+    <test name="IETest" duration-ms="112806" started-at="2018-01-08T11:46:40Z" finished-at="2018-01-08T11:48:33Z">
+      <class name="testScripts.NegativeSearchInsta">
+        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.NegativeSearchInsta@687080dc]" name="initiateBrowser" is-config="true" duration-ms="1980" started-at="2018-01-08T17:17:36Z" finished-at="2018-01-08T17:17:38Z">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[ie]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- initiateBrowser -->
-				<test-method status="PASS"
-					signature="negSearchInsta()[pri:0, instance:testScripts.NegativeSearchInsta@6b9651f3]"
-					name="negSearchInsta" duration-ms="59547" started-at="2018-01-07T18:19:13Z"
-					finished-at="2018-01-07T18:20:13Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- negSearchInsta -->
-				<test-method status="PASS"
-					signature="terminateBrowser()[pri:0, instance:testScripts.NegativeSearchInsta@6b9651f3]"
-					name="terminateBrowser" is-config="true" duration-ms="536"
-					started-at="2018-01-07T18:20:13Z" finished-at="2018-01-07T18:20:13Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- terminateBrowser -->
-			</class> <!-- testScripts.NegativeSearchInsta -->
-			<class name="testScripts.SearchInsta">
-				<test-method status="PASS"
-					signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.SearchInsta@5bb21b69]"
-					name="initiateBrowser" is-config="true" duration-ms="2335"
-					started-at="2018-01-07T18:18:13Z" finished-at="2018-01-07T18:18:16Z">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Properties File Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window Maximized]]>
+            </line>
+            <line>
+              <![CDATA[Loaded Base URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="negSearchInsta()[pri:0, instance:testScripts.NegativeSearchInsta@687080dc]" name="negSearchInsta" duration-ms="54238" started-at="2018-01-08T17:17:38Z" finished-at="2018-01-08T17:18:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Google Home Page Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Search Initiated]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/Not Found in Search Results]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Bottom of Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Next Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negSearchInsta -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:testScripts.NegativeSearchInsta@687080dc]" name="terminateBrowser" is-config="true" duration-ms="602" started-at="2018-01-08T17:18:33Z" finished-at="2018-01-08T17:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- testScripts.NegativeSearchInsta -->
+      <class name="testScripts.SearchInsta">
+        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:testScripts.SearchInsta@38bc8ab5]" name="initiateBrowser" is-config="true" duration-ms="2062" started-at="2018-01-08T17:16:40Z" finished-at="2018-01-08T17:16:42Z">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[ie]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- initiateBrowser -->
-				<test-method status="PASS"
-					signature="searchInsta()[pri:0, instance:testScripts.SearchInsta@5bb21b69]"
-					name="searchInsta" duration-ms="54291" started-at="2018-01-07T18:18:16Z"
-					finished-at="2018-01-07T18:19:10Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- searchInsta -->
-				<test-method status="PASS"
-					signature="terminateBrowser()[pri:0, instance:testScripts.SearchInsta@5bb21b69]"
-					name="terminateBrowser" is-config="true" duration-ms="534"
-					started-at="2018-01-07T18:19:10Z" finished-at="2018-01-07T18:19:10Z">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- terminateBrowser -->
-			</class> <!-- testScripts.SearchInsta -->
-		</test> <!-- IETest -->
-	</suite> <!-- Suite -->
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Properties File Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window Maximized]]>
+            </line>
+            <line>
+              <![CDATA[Loaded Base URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="searchInsta()[pri:0, instance:testScripts.SearchInsta@38bc8ab5]" name="searchInsta" duration-ms="53265" started-at="2018-01-08T17:16:42Z" finished-at="2018-01-08T17:17:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Google Home Page Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Search Initiated]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[https://www.instawork.com/ Found in search results]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchInsta -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:testScripts.SearchInsta@38bc8ab5]" name="terminateBrowser" is-config="true" duration-ms="654" started-at="2018-01-08T17:17:36Z" finished-at="2018-01-08T17:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- testScripts.SearchInsta -->
+    </test> <!-- IETest -->
+  </suite> <!-- Suite -->
 </testng-results>
