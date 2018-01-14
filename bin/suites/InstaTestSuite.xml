@@ -4,19 +4,24 @@
 
 <suite name="Suite" parallel="none">
 
-	<test name="ChromeTest">
+<listeners>
+       <listener class-name="common.TestListener"/>
+  </listeners>
+
+ <test name="ChromeTest">
 
 		<parameter name="browser" value="chrome" />
 
 		<classes>
-			 <class name="testScripts.SearchInsta" />
-			<class name="testScripts.NegativeSearchInsta" /> 
-
-		</classes>
+		
+    	<class name="testScripts.SearchInsta" /> 
+		<class name="testScripts.NegativeSearchInsta" /> 
+		 
+		</classes> 
 
 	</test>
 
-	 <test name="FirefoxTest">
+	<test name="FirefoxTest">
 
 		<parameter name="browser" value="firefox" />
 
@@ -27,7 +32,7 @@
 
 		</classes>
 
-	</test>
+	</test> 
 
 	<test name="EdgeTest">
 
@@ -36,13 +41,13 @@
 		<classes>
 
 			<class name="testScripts.SearchInsta" />
-			<class name="testScripts.NegativeSearchInsta" />
+			<class name="testScripts.NegativeSearchInsta" /> 
 
 		</classes>
 
 	</test>
 
-	<test name="IETest">
+<test name="IETest">
 
 		<parameter name="browser" value="ie" />
 
